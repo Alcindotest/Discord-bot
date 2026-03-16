@@ -1,5 +1,4 @@
 # Discord-bot
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/README.md b/README.md
 index e97f3dc44092992a908c8f1b0bcc60ce5d7c8b01..99f7975dd1871680b4c3f7bae1d0d080be739bb5 100644
 --- a/README.md
@@ -41,6 +40,3 @@ index e97f3dc44092992a908c8f1b0bcc60ce5d7c8b01..99f7975dd1871680b4c3f7bae1d0d080
 +
 +- Ticket channels are named `ticket-<username>`.
 +- If a user already has a ticket channel, a new one is not created.
- 
-EOF
-)
